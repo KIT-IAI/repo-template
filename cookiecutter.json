@@ -1,0 +1,16 @@
+{
+  "project_name": "A Project",
+  "description": "A project on github",
+  "author_name": "Somebody",
+  "license": [
+    "MIT",
+    "GNU GPL v3.0",
+    "GNU GPL v2.0",
+    "GNU LGPL v3.0",
+    "GNU LGPL v2.0",
+    "Apache v2.0",
+    "BSD 2",
+    "BSD 3"
+  ],
+  "project_slug": "{{ cookiecutter.project_name.lower()|replace(' ', '_')|replace('-', '_')|replace('.', '_')|trim() }}"
+}
