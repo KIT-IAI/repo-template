@@ -5,8 +5,6 @@ import datetime
 license = '{{ cookiecutter.license.lower()|replace(' ', '_')|replace('-', '_')|replace('.', '_')|trim() }}'
 author = '{{ cookiecutter.author_name }}'
 
-print('fetch license file for ' + license)
-
 url = 'https://raw.githubusercontent.com/IQAndreas/markdown-licenses/master/' + license + '.md'
 
 try:
