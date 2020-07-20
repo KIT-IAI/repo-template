@@ -23,3 +23,6 @@ This is a template for a git repository. A repository created with it complies w
 
 **Example:**
 [![asciicast](https://asciinema.org/a/348518.svg)](https://asciinema.org/a/348518)
+
+## Contribution
+Issues and pull requests are welcome
